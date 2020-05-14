@@ -15,11 +15,11 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 ## Session 2 (10:30 AM - 12:00 PM)
 ### Gogole Colab
 ### Supervised Learning: Linear regression problem
-:pencil2: Lab1:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Lab1_Linear_Regression_1.ipynb)
+:pencil2: Lab1A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Lab1_Linear_Regression_1.ipynb)
 
-:pencil2: Lab1: Linear regression (pytorch)
+:pencil2: Lab1B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Lab1_Linear_Regression_2.ipynb)
 
-:pencil2: Lab1: Linear regression (tensorflow)
+:pencil2: Lab1C: Linear regression (tensorflow)
 
 ## Session 3 (13:30 PM - 14:50 PM)
 ### Setting up working environment
