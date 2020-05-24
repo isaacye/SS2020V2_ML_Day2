@@ -8,27 +8,31 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 3](https://github.com/isaacye/SS2020_ML_Day2#Session-3) : Binary classification problem (MNIST)
 * [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : CIFAR-10 classification problem
 
-## Session 1 (9:00 AM - 10:20 AM)
+## Session 1 (9:30 AM - 10:30 AM)
 ### Introduction to Deep Learning
 ### Deep Learning framework
+### Playing around working environment in Google Colab
 
-## Session 2 (10:30 AM - 12:00 PM)
-### Gogole Colab
+:pencil2: Lab0A:  Calculating gradient (NumPy) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab0_toy_numpy_grad.ipynb)
+
+:pencil2: Lab0B:  Calculating gradient (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_toy_pyTorch_grad.ipynb)
+
+:pencil2: Lab0C:  Calculating gradient (Tensorflow) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_toy_Tensorflow_grad.ipynb)
+
+## Session 2 (10:45 AM - 12:30 PM)
 ### Supervised Learning: Linear regression problem
-:pencil2: Lab1A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Lab1_Linear_Regression_1.ipynb)
+:pencil2: Lab1A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab1_Linear_Reg_Vanilla.ipynb)
 
-:pencil2: Lab1B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Lab1_Linear_Regression_2.ipynb)
+:pencil2: Lab1B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab1_Linear_Regression_2.ipynb)
 
-:pencil2: Lab1C: Linear regression (tensorflow)
-
-## Session 3 (13:30 PM - 14:50 PM)
-### Setting up working environment
+## Session 3 (14:00 PM - 15:30 PM)
 #### Submitting a DL code using batch scheduler
 ### Supervised Learning: Binary Classification problem
 #### Multi Layer Perceptron
 #### MNIST Binary classification
+### Setting up working environment in Graham
 
-## Session 4 (15:00 PM - 17:00 PM)
+## Session 4 (15:45 PM - 17:00 PM)
 ### Supervised Learning: Classification problem
 #### Convolution Neural Network
 #### CIFAR-10 Classification
