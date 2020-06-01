@@ -5,8 +5,8 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 **Contents**
 * [Session 1](https://github.com/isaacye/SS2020_ML_Day2#Session-1) : Introduction to Deep Learning
 * [Session 2](https://github.com/isaacye/SS2020_ML_Day2#Session-2) : Linear regression problem
-* [Session 3](https://github.com/isaacye/SS2020_ML_Day2#Session-3) : Image Classification problem (Multi-Layler Perceptron)
-* [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Image Classification problem (Convolutional Neural Network)
+* [Session 3](https://github.com/isaacye/SS2020_ML_Day2#Session-3) : Multi-Layer Perceptron
+* [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Convolutional Neural Network
 
 ## Session 1 (9:30 AM - 10:30 AM) : [[Slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/SS20_S1.pdf)
 #### Introduction to Deep Learning
