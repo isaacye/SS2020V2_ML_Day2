@@ -177,3 +177,11 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 #### Convolutional Neural Network
 #### CIFAR-10 Classification
+
+## Acknowledgement
+
+KAIST Idea Factory - [[Deep learning alone]](https://github.com/heartcored98/Standalone-DeepLearning)
+
+Stanford [[CS231n]](http://cs231n.stanford.edu/)
+
+Pytorch document [[1.5.0]](https://pytorch.org/docs/stable/index.html)
