@@ -45,6 +45,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
    pip install --no-index --upgrade pip
    pip install --no-index torch
    pip install --no-index torchvision torchtext torchaudio
+   pip install sklearn
    ```
 4. (Optional) Deactivate virtual enviornment
    ```
