@@ -82,7 +82,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 3. Start interactive running mode 
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --node=1 --mem=1000M --account=def-training-wa
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --nodes=1 --mem=1000M --account=def-training-wa
    ```
 
 4. virtual environment (make sure you load python and scipy-stack module)
