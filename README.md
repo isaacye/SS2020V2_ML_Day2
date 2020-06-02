@@ -66,7 +66,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
    ```
 5. Note you need to collect all import commands into the beginning of code using text editor (Nano/emacs/VI): Please see [[Nano basic]](https://wiki.gentoo.org/wiki/Nano/Basics_Guide) for further details.
 
-6. Note that you need to save/close your plots with proper filename for each plotting command.
+6. Note that you need to save/close your plots with proper filename for each plotting command. (You may see what I did [[here.]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3A_linear_Reg_Vanilla_Graham.py))
 
 7. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
