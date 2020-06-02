@@ -139,6 +139,18 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 1.  Write a submission script 'job_s.sh' like below using text editor  
     ```
     #!/bin/bash
+    #
+    #SBATCH --nodes=1
+    #SBATCH --gres=gpu:t4:1
+    #SBATCH --mem=20000M
+    #SBATCH --time=0-30:00
+    #SBATCH --account=def-training-wa
+    #SBATCH --output=slurm.%x.%j.out
+    
+    module load python scipy-stack
+    source ~/ENV/bin/activate
+    python Lab3C_Linear_Reg_MLP_GPU.py
+    
     ```
     
 4. Submit it
