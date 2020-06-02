@@ -9,24 +9,24 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Convolutional Neural Network
 
 ## Session 1 (9:30 AM - 10:30 AM) : [[Slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20I.pdf)
-#### Introduction to Deep Learning
-#### Deep Learning framework
-#### Playing around working environment in Google Colab
+### Introduction to Deep Learning
+### Deep Learning framework
+### Playing around working environment in Google Colab
 
-:computer: Lab1A:  Calculating gradient (NumPy) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_numpy_grad.ipynb)
+### :computer: Lab1A:  Calculating gradient (NumPy) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_numpy_grad.ipynb)
 
-:computer: Lab1B:  Calculating gradient (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_pyTorch_grad.ipynb)
+### :computer: Lab1B:  Calculating gradient (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_pyTorch_grad.ipynb)
 
-:computer: Lab1C:  Calculating gradient (Tensorflow) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_Tensorflow_grad.ipynb)
+### :computer: Lab1C:  Calculating gradient (Tensorflow) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_Tensorflow_grad.ipynb)
 
 ## Session 2 (10:45 AM - 12:30 PM) : [[Slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20II.pdf)
-#### Supervised Learning: Linear regression problem
-:computer: Lab2A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
+### Supervised Learning: Linear regression problem
+### :computer: Lab2A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
 
-:computer: Lab2B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
+### :computer: Lab2B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
 
 ## Session 3 (14:00 PM - 15:30 PM) : [[Slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf)
-### Running DL codes in Graham ###
+###  :computer: Lab3A: Running DL codes in Graham ###
 #### Working environment in Graham ####
 1. Log into graham.computecanada.ca with guest account and p/w : please see [[this page]](https://docs.computecanada.ca/wiki/SSH) for further details.
 
@@ -71,10 +71,10 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 7. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
-#### Supervised Learning: Image classification (Multi-Layer Perceptron) ###
-:computer: Lab3B:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3B_Linear_Reg_MLP.ipynb)
+### Supervised Learning: Image classification (Multi-Layer Perceptron) ###
+### :computer: Lab3B:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3B_Linear_Reg_MLP.ipynb)
 
-#### Running a DL code _interactively_ in Graham ####
+#### Running a DL code on `CPU` _interactively_ in Graham ####
 
 1. Download **`Lab3B_Linear_Reg_MLP.ipynb`** as .py file from Colab
 
@@ -104,14 +104,39 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 8. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
+### :computer: Lab3C:  Linear regression (MLP) with GPU [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3C_Linear_Reg_MLP_GPU.ipynb)
+
+#### Running a DL code on `GPU` _interactively_ in Graham ####
+
+1. Copy Lab3C_Linear_Reg_MLP_GPU.py from /home/isaac/SS20_ML_Day2
+    ```
+    cp /home/isaac/SS20_ML_Day2/Lab3C_linear_Reg_MLP_GPU.py /home/$USER
+    ```
+
+2. Start interactive running mode with T4 GPU in Graham 
+   ```
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa
+   ```
+
+3. virtual environment (make sure you load python and scipy-stack module)
+
+    ```
+    module load python
+    module load sci-py-stack
+    source ~/ENV/bin/activate
+    ```
+
+4. Run it 
+    ```
+    python Lab3C_linear_Reg_MLP_GPU.py
+    ```
+    
+5. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
+
 
 #### Running a DL code _via scheduler_ in Graham ####
 
-1. Download **`Lab3B_Linear_Reg_MLP.ipynb`** as .py file from Colab
-
-2. File transfer **`Lab3B_Linear_Reg_MLP.py`** to Graham using WinScp or MobaXterm (Windows) / sftp (Linux, Mac)
-
-3. Write a submission script 'job_s.sh' like below using text editor  
+1.  Write a submission script 'job_s.sh' like below using text editor  
    ```
     #!/bin/bash
     #
@@ -126,7 +151,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
     module load python scipy-stack
     source ~/ENV/bin/activate
-    python Lab3A_Linear_Reg_MLP.py
+    python Lab3C_linear_Reg_MLP_GPU.py
    ```
 
 4. Submit it
@@ -139,9 +164,9 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
     squeue -u $USER
     ```
     
-6. Note you need to collect all import commands into the beginning of code using text editor (Nano/emacs/VI)
+6. Note you may need to collect all import commands into the beginning of code using text editor (Nano/emacs/VI)
 
-7. Note that you need to save/close your plots with proper filename for each plotting command like below
+7. Note that you may need to save/close your plots with proper filename for each plotting command like below
 
 8. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
