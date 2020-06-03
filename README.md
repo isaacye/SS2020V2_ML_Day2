@@ -172,12 +172,10 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 ## Session 4 (15:45 PM - 17:00 PM) : [[Slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_S4.pdf)
 
-#### MNIST Image classification
-:computer: Lab4A: MNIST Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4A_MNIST_classification.ipynb)
+### :computer: Lab4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4A_MNIST_classification.ipynb)
 
-#### Convolutional Neural Network
-#### CIFAR-10 Classification
-:computer: Lab4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4B_CIFAR10_classification.ipynb)
+### Convolutional Neural Network
+#### :computer: Lab4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4B_CIFAR10_classification.ipynb)
 
 ## Acknowledgement
 
