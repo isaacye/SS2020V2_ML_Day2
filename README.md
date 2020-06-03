@@ -177,8 +177,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 #### Convolutional Neural Network
 #### CIFAR-10 Classification
-:computer: Lab4B: CIFAR-10 Classification (pytorch) [[Demo code]]
-https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4B_CIFAR10_classification.ipynb
+:computer: Lab4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4B_CIFAR10_classification.ipynb)
 
 ## Acknowledgement
 
