@@ -116,7 +116,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 2. Start interactive running mode with T4 GPU in Graham 
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa_gpu
    ```
 
 3. virtual environment (make sure you load python and scipy-stack module)
