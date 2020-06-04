@@ -145,7 +145,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
     #SBATCH --gres=gpu:t4:1
     #SBATCH --mem=20000M
     #SBATCH --time=0-30:00
-    #SBATCH --account=def-training-wa
+    #SBATCH --account=def-training-wa_gpu
     #SBATCH --output=slurm.%x.%j.out
     
     module load python scipy-stack
