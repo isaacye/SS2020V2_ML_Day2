@@ -8,9 +8,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 3](https://github.com/isaacye/SS2020_ML_Day2#Session-3) : Multi-Layer Perceptron
 * [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Convolutional Neural Network
 
-## Session 1 (9:30 AM - 10:30 AM) : ![[Outline]](img src="https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/s1.PNG" width="28" height="28")
-
-(https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/s1.PNG)
+## Session 1 (9:30 AM - 10:30 AM) : ![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/s1.PNG)
 
 ### :computer: Lab1A:  Calculating gradient (NumPy) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_numpy_grad.ipynb)
 
