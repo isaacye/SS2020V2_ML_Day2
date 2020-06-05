@@ -46,7 +46,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
    ```
    module load python
    module load scipy-stack
-   virtuelenv --no-download ~/ENV
+   virtualenv --no-download ~/ENV
    ```
 3. Activate virtual enviornment and upgrade/install Pip and PyTorch: please see [[this page]](https://docs.computecanada.ca/wiki/PyTorch#Installation) for further details.
    ```
