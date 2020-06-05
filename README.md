@@ -91,7 +91,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 3. Start interactive running mode 
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --nodes=1 --mem=1000M --account=def-training-wa
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --nodes=1 --mem=1000M --account=def-training-wa --reservation=snss20_wr_cpu
    ```
 
 4. virtual environment (make sure you load python and scipy-stack module)
@@ -124,7 +124,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 2. Start interactive running mode with T4 GPU in Graham 
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa_gpu
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --reservation=snss20_wr_gpu --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa_gpu
    ```
 
 3. virtual environment (make sure you load python and scipy-stack module)
