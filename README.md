@@ -180,7 +180,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 
 --------------------------------------------------------------------------------
-## Session 4 (15:45 PM - 17:00 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20IV.pdf)
+## Session 4 (15:45 PM - 17:00 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf)
 
 ![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/s4.PNG)
 
