@@ -10,10 +10,6 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 ## Session 1 (9:30 AM - 10:30 AM) : ![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/s1.PNG)
 
-### Introduction to Deep Learning
-### Deep Learning framework
-### Playing around working environment in Google Colab
-
 ### :computer: Lab1A:  Calculating gradient (NumPy) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_numpy_grad.ipynb)
 
 ### :computer: Lab1B:  Calculating gradient (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_pyTorch_grad.ipynb)
@@ -21,13 +17,14 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 ### :computer: Lab1C:  Calculating gradient (Tensorflow) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_Tensorflow_grad.ipynb)
 
 ## Session 2 (10:45 AM - 12:30 PM) : ![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/s2.PNG)
-### Supervised Learning: Linear regression problem
+
 ### :computer: Lab2A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
 
 ### :computer: Lab2B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
 
 ## Session 3 (14:00 PM - 15:30 PM) : ![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/s3.PNG)
 ###  :computer: Lab3A: Running DL codes in Graham ###
+
 #### Working environment in Graham ####
 1. Log into graham.computecanada.ca with guest account and p/w : please see [[this page]](https://docs.computecanada.ca/wiki/SSH) for further details.
 
@@ -72,7 +69,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 7. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
-### Supervised Learning: Image classification (Multi-Layer Perceptron) ###
+
 ### :computer: Lab3B:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3B_Linear_Reg_MLP.ipynb)
 
 #### Running a DL code on `CPU` _interactively_ in Graham ####
@@ -175,7 +172,6 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 ### :computer: Lab4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4A_MNIST_classification.ipynb)
 
-### Convolutional Neural Network
 #### :computer: Lab4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4B_CIFAR10_classification.ipynb)
 
 ## Acknowledgement
