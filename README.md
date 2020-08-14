@@ -10,29 +10,25 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Convolutional Neural Network
 
 --------------------------------------------------------------------------------
-## Session 1 (9:30 AM - 10:30 AM) : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf)
+## Session 1 (9:30 AM - 10:30 AM) <!-- : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
 
-![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/s1.PNG)
-
-### :computer: Lab1A:  Calculating gradient (NumPy) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_numpy_grad.ipynb)
-
-### :computer: Lab1B:  Calculating gradient (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_pyTorch_grad.ipynb)
-
-### :computer: Lab1C:  Calculating gradient (Tensorflow) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_1/Lab1_Tensorflow_grad.ipynb)
+### Short introduction to Deep Learning (DL) and framework.
+### Single variable linear regression problem
+### Cost function/ gradient decent algorithm / learning rate
+### :computer: Lab 1:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
 
 --------------------------------------------------------------------------------
-## Session 2 (10:45 AM - 12:30 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf)
+## Session 2 (10:45 AM - 12:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
 
-![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/s2.PNG)
 
-### :computer: Lab2A:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
+
 
 ### :computer: Lab2B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
 
 --------------------------------------------------------------------------------
-## Session 3 (14:00 PM - 15:30 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf)
+## Session 3 (14:00 PM - 15:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
 
-![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/s3.PNG)
+
 
 ###  :computer: Lab3A: Running DL codes in Graham ###
 
@@ -180,9 +176,8 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 
 --------------------------------------------------------------------------------
-## Session 4 (15:45 PM - 17:00 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf)
+## Session 4 (15:45 PM - 17:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
 
-![[Outline]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/s4.PNG)
 
 ### :computer: Lab4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4A_MNIST_classification.ipynb)
 
