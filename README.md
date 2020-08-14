@@ -1,11 +1,11 @@
-# SS2020_ML_Day2
+# SS2020V2_ML_Day2
 --------------------------------------------------------------------------------
 
 Day 2 will provide an overview of Artificial Intelligence with a focus on Deep Learning (DL) and Deep Neural Networks (DNN). We will have hands-on tutorials on several popular DL problems such as Linear regression and classification cases. Mathematical background for supervised learning in DL will be discussed and fundamental foundation for advanced techniques will be built through step-by-step approaches. Hands-on exercises with PyTorch will be practiced on Google Colab platform and will be extended to run a DL code on GPU nodes in Graham system of Compute Canada.
 
 **Contents**
-* [Session 1](https://github.com/isaacye/SS2020_ML_Day2#Session-1) : Introduction to Deep Learning
-* [Session 2](https://github.com/isaacye/SS2020_ML_Day2#Session-2) : Linear regression problem
+* [Session 1](https://github.com/isaacye/SS2020_ML_Day2#Session-1) : Introduction to Deep learning/ Single variable linear regression problem
+* [Session 2](https://github.com/isaacye/SS2020_ML_Day2#Session-2) : Multi-variable linear regression problem
 * [Session 3](https://github.com/isaacye/SS2020_ML_Day2#Session-3) : Multi-Layer Perceptron
 * [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Convolutional Neural Network
 
