@@ -12,23 +12,33 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 --------------------------------------------------------------------------------
 ## Session 1 (9:30 AM - 10:30 AM) <!-- : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
 
-### Short introduction to Deep Learning (DL) and framework.
-### Single variable linear regression problem
-### Cost function/ gradient decent algorithm / learning rate
+**What we cover**
+* Short introduction to Deep Learning (DL) and framework.
+* Single variable linear regression problem
+* Cost function/ gradient decent algorithm / learning rate
+
 ### :computer: Lab 1:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
 
 --------------------------------------------------------------------------------
 ## Session 2 (10:45 AM - 12:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
 
-
-
+**What we cover**
+* PyTorch modules (linear model, cost function- MSE, optimizer - SGD)
+* Running a DL code on Graham in Compute Canada
 
 ### :computer: Lab2B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
 
 --------------------------------------------------------------------------------
 ## Session 3 (14:00 PM - 15:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
 
-
+**What we cover**
+* Binary classification
+* Logistic model, cross entropy function
+* Issue with linear regression
+* Activation function
+* XOR problem
+* Multi-layer Perceptron
+* GPU on Graham
 
 ###  :computer: Lab3A: Running DL codes in Graham ###
 
@@ -178,6 +188,13 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 --------------------------------------------------------------------------------
 ## Session 4 (15:45 PM - 17:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
 
+**What we cover**
+* Backward propagation, model capacity
+* Overfitting, vanishing gradient problem
+* MNIST image classification
+* Vanishing gradient problem
+* Issue with MLP
+* Convolutional neural network (CNN)
 
 ### :computer: Lab4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/Lab4A_MNIST_classification.ipynb)
 
