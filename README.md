@@ -58,23 +58,24 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
    ```
 
 #### Running a simple DL code in Graham ####
-1. Download **`Lab2A_Linear_Reg_Vanilla.ipynb`** as .py file from Google Colab
+1. Clone the repository and change directory to Session_2
+   ```
+   cd /home/$USER/scratch/$USER
+   git clone https://github.com/isaacye/SS2020V2_ML_Day2.git
+   cd SS2020V2_ML_Day2/Session_2
+   ```
 
-2. File transfer **`Lab2A_Linear_Reg_Vanilla.py`** to Graham using WinScp or MobaXterm (Windows) / sftp (Linux, Mac): please see [[this page]](https://docs.computecanada.ca/wiki/Transferring_data#SFTP) for further details.
-
-3. Activate virtual environment (make sure you load python and scipy-stack module)
+2. Activate virtual environment (make sure you load python and scipy-stack module)
    ```
    source ~/ENV/bin/activate
    ```
-4. Run it
+3. Run it
    ```
-   python Lab2A_Linear_Reg_Vanilla.py
+   python SS20_lab2_LRm.py
    ```
-5. Note you need to collect all import commands into the beginning of code using text editor (Nano/emacs/VI): Please see [[Nano basic]](https://wiki.gentoo.org/wiki/Nano/Basics_Guide) for further details.
+Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano basic]](https://wiki.gentoo.org/wiki/Nano/Basics_Guide) for further details.
 
-6. Note that you need to save/close your plots with proper filename for each plotting command. (You may see what I did [[here.]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3A_linear_Reg_Vanilla_Graham.py))
-
-7. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
+4. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
 
 --------------------------------------------------------------------------------
