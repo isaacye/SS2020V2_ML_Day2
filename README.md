@@ -17,7 +17,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * Single variable linear regression problem
 * Cost function/ gradient decent algorithm / learning rate
 
-### :computer: Lab 1:  Single variable linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
+### :computer: Lab 1:  Single variable linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_vanilla.ipynb)
 
 --------------------------------------------------------------------------------
 ## Session 2 (11:00 AM - 12:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
