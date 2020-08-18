@@ -28,7 +28,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 
 
-### :computer: Lab 2A: Multivariable linear regression (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
+### :computer: Lab 2A: Multivariable linear regression (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_2/SS20_lab2_LRm.ipynb)
 
 ###  :computer: Lab 2B: Running DL codes in Graham ###
 
