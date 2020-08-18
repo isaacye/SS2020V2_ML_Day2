@@ -10,37 +10,27 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 4](https://github.com/isaacye/SS2020_ML_Day2#Session-4) : Convolutional Neural Network
 
 --------------------------------------------------------------------------------
-## Session 1 (9:30 AM - 10:30 AM) <!-- : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
+## Session 1 (10:00 AM - 11:00 AM) <!-- : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
 
 **What we cover**
 * Short introduction to Deep Learning (DL) and framework.
 * Single variable linear regression problem
 * Cost function/ gradient decent algorithm / learning rate
 
-### :computer: Lab 1:  Linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
+### :computer: Lab 1:  Single variable linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2A_Linear_Reg_Vanilla.ipynb)
 
 --------------------------------------------------------------------------------
-## Session 2 (10:45 AM - 12:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
+## Session 2 (11:00 AM - 12:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
 
 **What we cover**
 * PyTorch modules (linear model, cost function- MSE, optimizer - SGD)
 * Running a DL code on Graham in Compute Canada
 
-### :computer: Lab2B: Linear regression (pytorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
 
---------------------------------------------------------------------------------
-## Session 3 (14:00 PM - 15:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
 
-**What we cover**
-* Binary classification
-* Logistic model, cross entropy function
-* Issue with linear regression
-* Activation function
-* XOR problem
-* Multi-layer Perceptron
-* GPU on Graham
+### :computer: Lab 2A: Multivariable linear regression (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/Lab2B_Linear_Reg_Linear.ipynb)
 
-###  :computer: Lab3A: Running DL codes in Graham ###
+###  :computer: Lab 2B: Running DL codes in Graham ###
 
 #### Working environment in Graham ####
 1. Log into graham.computecanada.ca with guest account and p/w : please see [[this page]](https://docs.computecanada.ca/wiki/SSH) for further details.
@@ -87,7 +77,21 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 7. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
 
-### :computer: Lab3B:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3B_Linear_Reg_MLP.ipynb)
+--------------------------------------------------------------------------------
+## Session 3 (1:30 PM - 15:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
+
+**What we cover**
+* Binary classification
+* Logistic model, cross entropy function
+* Issue with linear regression
+* Activation function
+* XOR problem
+* Multi-layer Perceptron
+* GPU on Graham
+
+
+
+### :computer: Lab 3A:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3B_Linear_Reg_MLP.ipynb)
 
 #### Running a DL code on `CPU` _interactively_ in Graham ####
 
@@ -119,7 +123,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 8. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
-### :computer: Lab3C:  Linear regression (MLP) with GPU [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3C_Linear_Reg_MLP_GPU.ipynb)
+### :computer: Lab 3B:  Linear regression (MLP) with GPU [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3C_Linear_Reg_MLP_GPU.ipynb)
 
 #### Running a DL code on `GPU` _interactively_ in Graham ####
 
@@ -186,7 +190,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 
 --------------------------------------------------------------------------------
-## Session 4 (15:45 PM - 17:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
+## Session 4 (15:30 PM - 17:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
 
 **What we cover**
 * Backward propagation, model capacity
