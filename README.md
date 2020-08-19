@@ -196,9 +196,9 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 * Issue with MLP
 * Convolutional neural network (CNN)
 
-### :computer: Lab4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_MNIST.ipynb)
+### :computer: Lab 4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_MNIST.ipynb)
 
-### :computer: Lab4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_CIFAR10.ipynb)
+### :computer: Lab 4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_CIFAR10.ipynb)
 
 ## Acknowledgement
 
