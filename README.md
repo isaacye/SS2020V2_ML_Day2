@@ -92,20 +92,21 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 
-### :computer: Lab 3A:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3B_Linear_Reg_MLP.ipynb)
+### :computer: Lab 3A:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLP.ipynb)
+### :computer: Lab 3B:  Linear regression (MLP) with GPU [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.ipynb)
 
 #### Running a DL code on `CPU` _interactively_ in Graham ####
 
-1. Download **`Lab3B_Linear_Reg_MLP.ipynb`** as .py file from Colab
-
-2. File transfer **`Lab3B_Linear_Reg_MLP.py`** to Graham using WinScp or MobaXterm (Windows) / sftp (Linux, Mac)
-
-3. Start interactive running mode 
+1. ```
+   cd /home/$USER/scratch/$USER/SS2020V2_ML_Day2/Session_3
+   ```
+   
+2. Start interactive running mode
    ```
     salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --nodes=1 --mem=1000M --account=def-training-wa --reservation=snss20_wr_cpu
    ```
-
-4. virtual environment (make sure you load python and scipy-stack module)
+   
+3. virtual environment (make sure you load python and scipy-stack module)
 
     ```
     module load python
@@ -113,29 +114,25 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
     source ~/ENV/bin/activate
     ```
 
-5. Run it 
+4. Run it 
     ```
-    python Lab3B_Linear_Reg_MLP.py
+    python SS20_lab3_LR_MLPg.py
     ```
     
-6. Note you need to collect all import commands into the beginning of code using text editor (Nano/emacs/VI)
+5. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
-7. Note that you need to save/close your plots with proper filename for each plotting command like below
 
-8. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
-
-### :computer: Lab 3B:  Linear regression (MLP) with GPU [[Demo code]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/Lab3C_Linear_Reg_MLP_GPU.ipynb)
 
 #### Running a DL code on `GPU` _interactively_ in Graham ####
 
-1. Copy Lab3C_Linear_Reg_MLP_GPU.py from /home/isaac/SS20_ML_Day2
-    ```
-    cp /home/isaac/SS20_ML_Day2/Lab3C_linear_Reg_MLP_GPU.py /home/$USER
-    ```
+1. ```
+   cd /home/$USER/scratch/$USER/SS2020V2_ML_Day2/Session_3
+   ```
+   
 
 2. Start interactive running mode with T4 GPU in Graham 
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --reservation=snss20_wr_gpu --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa_gpu
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --gres=gpu:t4:1 --nodes=1 --mem=1000M --account=def-training-wa --reservation=snss20_wr_gpu 
    ```
 
 3. virtual environment (make sure you load python and scipy-stack module)
@@ -148,7 +145,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 4. Run it 
     ```
-    python Lab3C_linear_Reg_MLP_GPU.py
+    python SS20_lab3_LR_MLPg.py
     ```
     
 5. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
@@ -164,12 +161,14 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
     #SBATCH --gres=gpu:t4:1
     #SBATCH --mem=20000M
     #SBATCH --time=0-30:00
-    #SBATCH --account=def-training-wa_gpu
+    #SBATCH --account=def-training-wa
+    #SBATCH --reservation=snss20_wr_gpu
     #SBATCH --output=slurm.%x.%j.out
     
     module load python scipy-stack
     source ~/ENV/bin/activate
-    python Lab3C_Linear_Reg_MLP_GPU.py
+    cd /home/$USER/scratch/$USER/SS2020V2_ML_Day2/Session_3
+    python /home/$USER/scratch/$USER/SS2020V2_ML_Day2/Session_3/SS20_lab3_LR_MLPg.py
     
     ```
     
@@ -183,11 +182,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
     squeue -u $USER
     ```
     
-6. Note you may need to collect all import commands into the beginning of code using text editor (Nano/emacs/VI)
-
-7. Note that you may need to save/close your plots with proper filename for each plotting command like below
-
-8. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
+6. File transfer plotting files to your local computer using WinScp or MobaXterm (Windows) / sftp (Linux, Mac) and check it out
 
 
 --------------------------------------------------------------------------------
