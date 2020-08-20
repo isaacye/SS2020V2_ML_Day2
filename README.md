@@ -17,7 +17,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * Single variable linear regression problem
 * Cost function/ gradient decent algorithm / learning rate
 
-### :computer: Lab 1:  Single variable linear regression (vanilla) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_vanilla.ipynb)
+### :computer: Lab 1:  Single variable linear regression (vanilla) [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_vanilla.ipynb)
 
 --------------------------------------------------------------------------------
 ## Session 2 (11:00 AM - 12:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
@@ -28,7 +28,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 
 
 
-### :computer: Lab 2A: Multivariable linear regression (PyTorch) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_2/SS20_lab2_LRm.ipynb)
+### :computer: Lab 2A: Multivariable linear regression (PyTorch) [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_2/SS20_lab2_LRm_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_2/SS20_lab2_LRm.ipynb)
 
 ###  :computer: Lab 2B: Running DL codes in Graham ###
 
@@ -92,8 +92,10 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 
-### :computer: Lab 3A:  Linear regression (MLP) - CPU/GPU using Google Colab [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.ipynb)
-### :computer: Lab 3B:  Linear regression (MLP) using Graham [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.py)
+### :computer: Lab 3A-1:  Linear regression (MLP) - CPU using Google Colab [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLP_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLP.ipynb)
+### :computer: Lab 3A-2:  Linear regression (MLP) - GPU using Google Colab [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.ipynb)
+
+### :computer: Lab 3B:  Linear regression (MLP) using Graham [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.py)
 
 #### Running a DL code on `CPU` _interactively_ in Graham ####
 
@@ -196,9 +198,9 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 * Issue with MLP
 * Convolutional neural network (CNN)
 
-### :computer: Lab 4A: MNIST Image classification [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_MNIST.ipynb)
+### :computer: Lab 4A: MNIST Image classification [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_MNIST_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_MNIST.ipynb)
 
-### :computer: Lab 4B: CIFAR-10 Classification (pytorch) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_CIFAR10.ipynb)
+### :computer: Lab 4B: CIFAR-10 Classification (pytorch) [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_CIFAR10_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20_lab4_CIFAR10.ipynb)
 
 ## Acknowledgement
 
