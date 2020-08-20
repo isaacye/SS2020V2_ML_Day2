@@ -92,8 +92,8 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 
-### :computer: Lab 3A:  Linear regression (MLP) [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLP.ipynb)
-### :computer: Lab 3B:  Linear regression (MLP) with GPU [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.ipynb)
+### :computer: Lab 3A:  Linear regression (MLP) - CPU/GPU using Google Colab [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.ipynb)
+### :computer: Lab 3B:  Linear regression (MLP) using Graham [[Demo code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_3/SS20_lab3_LR_MLPg.py)
 
 #### Running a DL code on `CPU` _interactively_ in Graham ####
 
