@@ -10,7 +10,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 4](https://github.com/isaacye/SS2020V2_ML_Day2#Session-4) : Convolutional Neural Network
 
 --------------------------------------------------------------------------------
-## Session 1 (10:00 AM - 11:00 AM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
+## Session 1 (10:00 AM - 11:00 AM) : [[Lecture slide]] (https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20V2_ML_Day2_Session%20I.pdf)
 
 **What we cover**
 * Short introduction to Deep Learning (DL) and framework.
