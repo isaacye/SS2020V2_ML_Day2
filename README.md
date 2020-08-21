@@ -80,7 +80,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 --------------------------------------------------------------------------------
-## Session 3 (1:30 PM - 15:30 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
+## Session 3 (2:00 PM - 15:30 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
 
 **What we cover**
 * Binary classification
