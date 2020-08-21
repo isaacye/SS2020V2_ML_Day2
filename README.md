@@ -60,6 +60,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 #### Running a simple DL code in Graham ####
 1. Clone the repository and change directory to Session_2
    ```
+   mkdir /home/$USER/scratch/$USER
    cd /home/$USER/scratch/$USER
    git clone https://github.com/isaacye/SS2020V2_ML_Day2.git
    cd SS2020V2_ML_Day2/Session_2
