@@ -10,7 +10,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 * [Session 4](https://github.com/isaacye/SS2020V2_ML_Day2#Session-4) : Convolutional Neural Network
 
 --------------------------------------------------------------------------------
-## Session 1 (10:00 AM - 11:00 AM) <!-- : [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
+## Session 1 (10:00 AM - 11:00 AM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20I.pdf) -->
 
 **What we cover**
 * Short introduction to Deep Learning (DL) and framework.
@@ -20,7 +20,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 ### :computer: Lab 1:  Single variable linear regression (vanilla) [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_vanilla.ipynb)
 
 --------------------------------------------------------------------------------
-## Session 2 (11:00 AM - 12:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
+## Session 2 (11:00 AM - 12:00 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
 
 **What we cover**
 * PyTorch modules (linear model, cost function- MSE, optimizer - SGD)
@@ -79,7 +79,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 --------------------------------------------------------------------------------
-## Session 3 (1:30 PM - 15:30 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
+## Session 3 (1:30 PM - 15:30 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_3/SS20_ML_Day2_Session%20III.pdf) -->
 
 **What we cover**
 * Binary classification
@@ -188,7 +188,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 --------------------------------------------------------------------------------
-## Session 4 (15:30 PM - 17:00 PM) <!--: [[Lecture slide]](https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
+## Session 4 (15:30 PM - 17:00 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
 
 **What we cover**
 * Backward propagation, model capacity
