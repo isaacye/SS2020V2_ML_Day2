@@ -189,7 +189,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 
 --------------------------------------------------------------------------------
-## Session 4 (15:30 PM - 17:00 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_4/SS20_ML_Day2_Session%20IV.pdf) -->
+## Session 4 (15:30 PM - 17:00 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_4/SS20V2_ML_Day2_Session%20IV.pdf)
 
 **What we cover**
 * Backward propagation, model capacity
