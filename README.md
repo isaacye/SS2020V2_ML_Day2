@@ -135,7 +135,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
 2. Start interactive running mode with GPU in Graham 
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --mem=1000M --account=def-training-wa --reservation=snss20_wr_gpu 
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --mem=1000M --account=def-training-wa --reservation=snss20-wr_gpu 
    ```
 
 3. virtual environment (make sure you load python and scipy-stack module)
