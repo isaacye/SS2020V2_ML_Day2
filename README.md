@@ -106,7 +106,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
    
 2. Start interactive running mode
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --nodes=1 --mem=1000M --account=def-training-wa --reservation=snss20_wr_cpu
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --nodes=1 --mem=1000M --account=def-training-wa --reservation=snss20-wr_cpu
    ```
    
 3. virtual environment (make sure you load python and scipy-stack module)
