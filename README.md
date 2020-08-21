@@ -20,7 +20,7 @@ Day 2 will provide an overview of Artificial Intelligence with a focus on Deep L
 ### :computer: Lab 1:  Single variable linear regression (vanilla) [[Skeleton code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_skeleton.ipynb) / [[Master code]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_1/SS20_lab1_LR_vanilla.ipynb)
 
 --------------------------------------------------------------------------------
-## Session 2 (11:00 AM - 12:00 PM) : [[Lecture slide]] <!-- (https://github.com/isaacye/SS2020_ML_Day2/blob/master/Session_2/SS20_ML_Day2_Session%20II.pdf) -->
+## Session 2 (11:00 AM - 12:00 PM) : [[Lecture slide]](https://github.com/isaacye/SS2020V2_ML_Day2/blob/master/Session_2/SS20V2_ML_Day2_Session%20II.pdf)
 
 **What we cover**
 * PyTorch modules (linear model, cost function- MSE, optimizer - SGD)
