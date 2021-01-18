@@ -113,7 +113,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
     ```
     module load python
-    module load sci-py-stack
+    module load scipy-stack
     source ~/ENV/bin/activate
     ```
 
@@ -142,7 +142,7 @@ Note that you may want to use a text editor (Nano/emacs/VI): Please see [[Nano b
 
     ```
     module load python
-    module load sci-py-stack
+    module load scipy-stack
     source ~/ENV/bin/activate
     ```
 
